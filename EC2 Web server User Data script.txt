@@ -1,0 +1,15 @@
+
+
+### Copy from below line ###
+
+#!/bin/bash
+sudo apt update -y
+sudo apt install apache2 -y
+sudo service apache2 start
+
+echo "<html>  <body bgcolor = blue>  <h1>Welcome to SHS Tech Academy's page</h1>  <a href = "https://shstechacademy.com"><font color=black> Upgrade your skills with latest Tech Tools </font></a>   </body>  </html>"  > index.html
+
+sudo mv index.html /var/www/html
+
+## Do not copy this line ##
+
